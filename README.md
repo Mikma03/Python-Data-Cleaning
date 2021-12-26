@@ -22,3 +22,8 @@ Cover recipes on using supervised learning and Naive Bayes analysis to identify 
 - Enhance your ability to learn what is going on in your data
 
 - Build user-defined functions and classes to automate data cleaning
+
+
+I found an interesting article on data cleansing some time ago on the Towards data Science page on Medium. As a complement to this repository, I am enclosing a link.
+
+[The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
