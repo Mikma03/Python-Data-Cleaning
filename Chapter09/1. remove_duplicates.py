@@ -1,8 +1,8 @@
 # import pandas, numpy, and covid cases daily data
 import pandas as pd
-pd.set_option('display.width', 200)
-pd.set_option('display.max_columns', 7)
-pd.set_option('display.max_rows', 200)
+# pd.set_option('display.width', 200)
+# pd.set_option('display.max_columns', 7)
+# pd.set_option('display.max_rows', 200)
 pd.options.display.float_format = '{:,.2f}'.format
 covidcases = pd.read_csv("data/covidcases720.csv")
 
