@@ -7,12 +7,12 @@ nls97.set_index('personid', inplace=True)
 
 # import the basicdescriptives module
 sys.path.append(os.getcwd() + "/helperfunctions")
-import basicdescriptives as bd
+from helperfunctions import basicdescriptives as bd
 # import importlib
 # importlib.reload(bd)
-pd.set_option('display.width', 75)
-pd.set_option('display.max_columns', 5)
-pd.set_option('display.max_rows', 15)
+# pd.set_option('display.width', 75)
+# pd.set_option('display.max_columns', 5)
+# pd.set_option('display.max_rows', 15)
 
 # take a first look at the NLS data
 dfinfo = bd.getfirstlook(nls97)
